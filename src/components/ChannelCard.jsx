@@ -11,7 +11,7 @@ function ChannelCard({id, avatar, title, subscribers}) {
         <img
           src={avatar}
           alt=""
-          className="w-[65%] bg-cover object-cover rounded-full"
+          className="w-[65%] bg-cover object-cover rounded-full mx-auto"
         />
       </div>
       <div className="content pt-3 px-3 pb-2 text-center">
