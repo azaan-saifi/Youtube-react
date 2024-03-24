@@ -55,7 +55,10 @@ function ChannelDetail() {
         {videos &&
           videos.map((video, idx) => (
             <div key={idx} className="max-w-[210px]">
-              <VideoCard video={video} />
+              <VideoCard
+                video={video}
+                width={window.innerWidth < 500 ? "w-[90vw]" : "w-[210px]"}
+              />
             </div>
           ))}
       </div>
